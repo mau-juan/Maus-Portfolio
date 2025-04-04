@@ -51,28 +51,21 @@
         }
 
         .intro h1 {
-            font-family: 'Pacifico', cursive; /* Catchy font */
+            font-family: Arial, sans-serif;
             font-size: 3rem;
             color: #008080; /* Main teal color */
             font-weight: bold;
+            text-align: center;
         }
 
         .intro p {
             font-size: 1.2rem;
             color: #004d4d; /* Darker teal */
             margin-top: 0.5rem;
+            text-align: center;
+                    
         }
 
-        .photo-section {
-            margin: 2rem 0;
-        }
-
-        .photo-section img {
-            max-width: 300px;
-            height: auto;
-            border-radius: 10px;
-            border: 3px solid #20B2AA; /* Lighter teal border */
-        }
 
         footer {
             background-color: #006666;

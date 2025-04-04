@@ -37,16 +37,41 @@
             color: #00CED1;
         }
 
+        }
+
         .main-content {
             max-width: 800px;
             margin: 2rem auto;
             padding: 0 1rem;
+            text-align: center;
         }
 
-        .welcome-section {
-            background-color: #E0FFFF;
+        .intro {
             padding: 2rem;
-            border-radius: 5px;
+        }
+
+        .intro h1 {
+            font-family: 'Pacifico', cursive; /* Catchy font */
+            font-size: 3rem;
+            color: #008080; /* Main teal color */
+            font-weight: bold;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            color: #004d4d; /* Darker teal */
+            margin-top: 0.5rem;
+        }
+
+        .photo-section {
+            margin: 2rem 0;
+        }
+
+        .photo-section img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid #20B2AA; /* Lighter teal border */
         }
 
         footer {

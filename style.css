@@ -71,3 +71,34 @@
             bottom: 0;
             width: 100%;
         }
+
+        .styled-image {
+            width: 300px;
+            height: auto; /* Maintains aspect ratio */
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+        }
+
+        section {
+            margin: 20px;
+            padding: 15px;
+          }
+
+
+          .aboutstyled-image {
+            float: right;
+            margin-left: 10px; 
+            margin-right: 150px; 
+            margin-top: 85px;
+            width: 300px;
+        }
+
+        .abouttext-style {
+            text-align: center;
+            padding: 8rem;
+            margin-left: 150px; 
+
+
+
+        }
